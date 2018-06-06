@@ -19,14 +19,14 @@ android {
             buildConfigField 'String', 'BASE_URL', '"https://api.themoviedb.org/3/"'
             buildConfigField 'String', 'POSTER_BASE_URL', '" http://image.tmdb.org/t/p/w185"'
             buildConfigField 'String', 'POSTER_BASE_URL_HIGH', '" http://image.tmdb.org/t/p/w342"'
-            buildConfigField 'String', 'API_KEY', '"59cf368bd55756bd3b88fea0ced7c9d7"'
+            buildConfigField 'String', 'API_KEY', '"ENTER HERE"'
         }
 
         release {
             buildConfigField 'String', 'BASE_URL', '"https://api.themoviedb.org/3/"'
             buildConfigField 'String', 'POSTER_BASE_URL', '" http://image.tmdb.org/t/p/w185"'
             buildConfigField 'String', 'POSTER_BASE_URL_HIGH', '" http://image.tmdb.org/t/p/w342"'
-            buildConfigField 'String', 'API_KEY', '"59cf368bd55756bd3b88fea0ced7c9d7"'
+            buildConfigField 'String', 'API_KEY', '"ENTER HERE"'
             buildConfigField 'boolean', 'LOG_DEBUG_MODE', 'false'
         }
     }
